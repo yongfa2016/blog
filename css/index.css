@@ -1,0 +1,92 @@
+body {
+  background: url(../img/bj.jpg);
+}
+header {
+  width: 100%;
+
+}
+header .topdesigner {
+  height: 237px;
+  /*background-color: #f0f;*/
+}
+.topdesigner .toptitle {
+  height: 200px;
+  padding-left: 300px;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.topdesigner .toptitle h3 {
+    font: 22px/18px 'microsoft yahei';
+    padding-bottom: 10px;
+    box-sizing: border-ox;
+}
+.topdesigner .toptitle a {
+
+    font: 14px/14px 'microsoft yahei';
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.topdesigner .topnav {
+  height: 40px;
+  background-color: lightblue;
+  border-radius: 15px;
+  /*background-color: #f0f;*/
+}
+.topdesigner .topnav li{
+  float: left;
+  padding:0 10px;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  font:900 18px/40px 'microsoft yahei';
+  transition: all 1s linear;
+  border-radius: 15px;
+  opacity: 0.7;
+  text-shadow: 3px -4px 3px #f0f;
+}
+.topnav li:first-child {
+  background-color: pink;
+  box-shadow:2px -3px 1px 2px orange inset;
+}
+.topnav li a {
+  color: #000 ;
+}
+.topnav li:hover {
+box-shadow:2px -3px 1px 2px orange inset;
+  background: #5abb00;
+  opacity: 0.7;
+  transform: skew(-20deg) translateY(-10px);
+}
+.blog-middle {
+    height: 400px;
+}
+.blog-middle .blog-lefcon{
+    float: left;
+    width: 530px;
+    height: 230px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+.blog-lefcon ul {
+  position: relative;
+  width: 360px;
+  height: 200px;
+  margin: 10px 10px;
+}
+.blog-lefcon ul li {
+  display: none;
+}
+.blog-lefcon ul,ol{
+  float: left;
+  overflow: hidden;
+}
+.blog-lefcon ol li {
+  margin: 3px 0;
+}
+.blog-lefcon ol img {
+  vertical-align: middle;
+}
+
+
+
+
